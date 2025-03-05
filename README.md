@@ -1,4 +1,4 @@
-# Amazon Price Tracker 
+# E-Commerce Price Tracker 
 
 Simple and easy to use Python script to extract a product details on Amazon, eBay, Walmart
 
