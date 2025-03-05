@@ -2,10 +2,23 @@
 
 Simple and easy to use Python script to track a product price on Amazon
 
-All what you need to do is put the product URL when you run the code
+## Featuers
+✅ Scrapes product name, price, and rating  
+✅ Saves data to CSV  
+✅ Sends a Telegram notification if price drops
 
-Also you can put your Telegram ID and Bot Token to receive notification when the price is drop!
+## How to run
+First make sure to install the next modules:
+`pip install requests beautifulsoup4 pandas`
 
-# How to run
+If you want to recieve a telegram notification when the price drops , change these variables:
 
-Download the modules in the requirements.txt file by using `pip install 'module name'` and then run the script and enjoy!
+On line 8 `TG_ID = 123` replace `123` with your actual Telegram ID
+On line 9 `TG_TOKEN = "12345:abcde"` replace `12345:abcde` with an actual Telegram Bot Token (You can make a Telegram Bot from `@BotFather`)
+
+Then run the script, when this shows up:
+![image_2025-03-05_04-14-52](https://github.com/user-attachments/assets/170683f3-6afd-420b-81a4-5865ee768ce4)
+Enter the URL of the itam that you want to track
+
+That's it!
+
