@@ -7,7 +7,6 @@ con = sqlite3.connect("products.db")
 
 cur = con.cursor()
 
-res = cur.execute("SELECT name FROM sqlite_master WHERE name='itmes'")
 try: cur.execute("CREATE TABLE items(title, price, rating, source)")
 except: ""
 
