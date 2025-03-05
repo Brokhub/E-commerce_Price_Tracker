@@ -1,25 +1,35 @@
 # Amazon Price Tracker 
 
-Simple and easy to use Python script to track a product price on Amazon
+Simple and easy to use Python script to extract a product details on Amazon, eBay, Walmart
 
 ## Featuers
 ✅ Scrapes product name, price, and rating  
-✅ Saves data to CSV  
-✅ Sends a Telegram notification if price drops
+✅ Saves data to SQLite3 Database 
 
 ## How to run
 First make sure to install the next modules:
-`pip install requests beautifulsoup4 pandas`
+`pip install requests beautifulsoup4 pandas sqlite3`
 
-If you want to recieve a telegram notification when the price drops , change these variables:
+When You Run The Script Type The Number Of The Command.
 
-On line 8 `TG_ID = 123` replace `123` with your actual Telegram ID
+Ex:
 
-On line 9 `TG_TOKEN = "12345:abcde"` replace `12345:abcde` with an actual Telegram Bot Token (You can make a Telegram Bot from `@BotFather`)
+![image_2025-03-05_22-15-24](https://github.com/user-attachments/assets/0680104e-fe7b-4bf8-a598-86044533d82e)
 
-Then run the script, when this shows up:
-![image_2025-03-05_04-14-52](https://github.com/user-attachments/assets/170683f3-6afd-420b-81a4-5865ee768ce4)
-Enter the URL of the itam that you want to track
+I Typed Number `1` To Track A Product Price , Then Just Enter The Product URL Like This:
+
+![image_2025-03-05_22-20-06](https://github.com/user-attachments/assets/aa0e4aab-44ba-424f-8a79-e471b99f3131)
+
+Or You Can Type Number `2` To Show The Stored Items In The Database:
+
+![image_2025-03-05_22-23-52](https://github.com/user-attachments/assets/17a0df99-4043-43a0-8800-f7ed9c6f5abe)
+
+It Will Print All The Items Stored In The Database Like This.
+
+Also You Can Type Any Other Number To Exit From The Script.
+
+
+That't It, Enjoy!
 
 That's it!
 
