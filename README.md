@@ -14,6 +14,7 @@ First make sure to install the next modules:
 If you want to recieve a telegram notification when the price drops , change these variables:
 
 On line 8 `TG_ID = 123` replace `123` with your actual Telegram ID
+
 On line 9 `TG_TOKEN = "12345:abcde"` replace `12345:abcde` with an actual Telegram Bot Token (You can make a Telegram Bot from `@BotFather`)
 
 Then run the script, when this shows up:
